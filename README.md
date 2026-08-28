@@ -5,7 +5,7 @@ Code and per-figure source data for the manuscript:
 > **Proteomic Intensity Artifacts in HIV Multi-Omics Integration: Deep Learning Benchmarking and Corrected Metabolic-Risk Endotyping**
 > K. M. Elamin, S. M. I. Elbashir, I. Adam. Submitted to *Proteomes* (MDPI), 2026.
 
-This repository contains the analysis pipeline, artifact-diagnostic framework, and figure-generation code needed to reproduce the study. Public source-data provenance is documented in `data/source_manifest.tsv`. For peer-review reproducibility, the repository is designed to support three entry points: full reproduction from public source data, analysis from released intermediate matrices, and figure-only reproduction. See `REPRODUCIBILITY.md`.
+This repository contains the analysis pipeline, artifact-diagnostic framework, and figure-generation code needed to reproduce the study. Public source-data provenance is documented in `data/source_manifest.tsv`. The repository includes processed intermediate matrices, analysis scripts, and per-panel source data for reproducibility.
 
 ---
 
@@ -19,7 +19,7 @@ The study assembles a linked four-layer multi-omics resource (transcriptomics, O
 - the four-test artifact-diagnostic framework and the normalization-strategy benchmark,
 - endotype derivation, pathway enrichment, and drug mapping,
 - the missing-modality experiment,
-- MATLAB figure-generation scripts and per-panel source data.
+- per-panel figure source data.
 
 ---
 
@@ -31,8 +31,6 @@ The study assembles a linked four-layer multi-omics resource (transcriptomics, O
 ├── LICENSE                     # MIT (code)
 ├── LICENSE-DATA                # CC-BY-4.0 (derived figure data)
 ├── CITATION.cff                # how to cite this repository
-├── REPRODUCIBILITY.md          # reviewer entry points
-├── UPLOAD_TO_GITHUB.md         # upload instructions
 ├── requirements.txt            # Python environment
 ├── environment.yml             # conda environment (equivalent)
 ├── data/
@@ -62,11 +60,6 @@ The study assembles a linked four-layer multi-omics resource (transcriptomics, O
 │   ├── exp_A_missing_modality.py        # Figure 6
 │   ├── exp_B_batch_correction.py        # Figure 7
 │   └── export_figure_data.py            # writes per-panel CSVs
-├── matlab/
-│   ├── make_all_figures.m      # Figures 1b–7, S1
-│   ├── make_figure1a.m         # study-design schematic
-│   ├── fig_style.m             # centralized styling
-│   └── save_panel.m            # robust .fig/.tiff/.png saver
 └── results/
     └── figure_data/            # per-panel source CSVs (one per figure panel)
 ```
@@ -135,17 +128,11 @@ python scripts/exp_B_batch_correction.py        # Fig 7
 python scripts/export_figure_data.py            # writes results/figure_data/
 ```
 
-### 5. Generate figures
+### 5. Figure-level source data
 
-In MATLAB (R2025b or compatible):
+The numerical source data underlying the study figures are provided in `results/figure_data/` as per-panel CSV files. These files support direct inspection of the plotted values and independent replotting using compatible statistical or graphics software.
 
-```matlab
-cd matlab
-make_all_figures   % Figures 1b–7 and S1
-make_figure1a      % study-design schematic
-```
-
-Each panel is saved as `.fig` (editable), `.tiff` and `.png` at 1200 dpi.
+No figure-generation software-specific files are included in this repository.
 
 ---
 
