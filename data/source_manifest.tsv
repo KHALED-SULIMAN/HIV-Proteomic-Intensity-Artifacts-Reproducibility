@@ -1,0 +1,5 @@
+layer	resource	location	role_in_current_study
+RNA-seq	NCBI SRA BioProject PRJNA983231	https://www.ncbi.nlm.nih.gov/bioproject/PRJNA983231	raw transcriptomic reads
+Olink proteomics	Immunometabolism_HIV source repository:data/Olink/Q-01546_Neogi_NPX_2022-06-09.csv	https://github.com/neogilab/Immunometabolism_HIV/tree/main/data/Olink	original Olink NPX source file
+Metabolomics	Immunometabolism_HIV source repository:data/metabolomics/cocomo_norm_data_filt.csv	https://github.com/neogilab/Immunometabolism_HIV/tree/main/data/metabolomics	public metabolomic source matrix
+COCOMO processing/clinical	Immunometabolism_HIV source repository:processing and data/clinical	https://github.com/neogilab/Immunometabolism_HIV	participant linkage and analysis covariates used by preprocessing scripts

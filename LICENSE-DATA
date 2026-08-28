@@ -1,0 +1,7 @@
+The derived per-figure source data in results/figure_data/ are licensed under
+the Creative Commons Attribution 4.0 International License (CC-BY-4.0).
+https://creativecommons.org/licenses/by/4.0/
+
+These files contain non-identifying, aggregated values used to render the
+figures. They do not contain participant-level data. Primary data remain under
+the terms of their original public repositories (see data/README.md).

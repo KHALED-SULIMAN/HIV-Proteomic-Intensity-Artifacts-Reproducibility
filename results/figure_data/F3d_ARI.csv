@@ -1,0 +1,3 @@
+comparison,ARI_raw,ARI_corrected
+proteomics_only,0.703,0.667
+RNA+metab_only,-0.005,0.112

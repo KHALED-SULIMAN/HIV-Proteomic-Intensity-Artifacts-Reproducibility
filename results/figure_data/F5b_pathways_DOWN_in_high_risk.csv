@@ -1,0 +1,16 @@
+Term,Gene_set,Adjusted P-value,Combined Score,Overlap
+Cytokine-cytokine receptor interaction,KEGG_2021_Human,4.540455399876669e-12,226.6251347461153,28/295
+Immune System R-HSA-168256,Reactome_2022,4.965491524097787e-10,82.1038624398604,73/1943
+Positive Regulation Of Cellular Process (GO:0048522),GO_Biological_Process_2023,1.392149579261512e-09,129.82440398963578,37/594
+Cell adhesion molecules,KEGG_2021_Human,1.8555128472221637e-09,229.0630128051681,18/148
+Immunoregulatory Interactions Between A Lymphoid And A non-Lymphoid Cell R-HSA-198933,Reactome_2022,3.116707742668898e-09,273.06275576540645,17/123
+Positive Regulation Of Cell Population Proliferation (GO:0008284),GO_Biological_Process_2023,5.5536643411453105e-09,126.77914084620662,32/483
+Axon Guidance (GO:0007411),GO_Biological_Process_2023,1.2861122431711e-08,226.250302794684,18/149
+Neuron Projection Guidance (GO:0097485),GO_Biological_Process_2023,4.7454908788420366e-08,226.9044591045788,16/124
+TNFs Bind Their Physiological Receptors R-HSA-5669034,Reactome_2022,9.46735676810112e-08,637.2300830891143,9/29
+Extracellular Matrix Organization R-HSA-1474244,Reactome_2022,2.2706399687166605e-07,113.10100786265087,22/291
+Axonogenesis (GO:0007409),GO_Biological_Process_2023,3.693612696723373e-07,146.71190565671137,18/188
+Regulation Of Cell Population Proliferation (GO:0042127),GO_Biological_Process_2023,1.2157122392026932e-06,66.04526289438544,36/766
+Enzyme-Linked Receptor Protein Signaling Pathway (GO:0007167),GO_Biological_Process_2023,2.4078460953746817e-06,155.95821010769853,14/124
+TNFR2 Non-Canonical NF-kB Pathway R-HSA-5668541,Reactome_2022,7.884119819282034e-06,150.26544639741573,12/100
+Positive Regulation Of Epithelial Cell Proliferation (GO:0050679),GO_Biological_Process_2023,1.60130846119095e-05,128.58395905653583,13/123

@@ -1,0 +1,28 @@
+name: hiv_integration
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - numpy>=1.24
+  - pandas>=2.0
+  - scipy>=1.10
+  - scikit-learn>=1.3
+  - matplotlib>=3.7
+  - openpyxl>=3.1
+  - git
+  - fastp
+  - fastqc
+  - multiqc
+  - salmon
+  - sra-tools
+  - pigz
+  - r-base=4.3
+  - r-readr
+  - bioconductor-tximport
+  - bioconductor-deseq2
+  - pip
+  - pip:
+      - torch>=2.0
+      - gseapy>=1.1
+      - umap-learn>=0.5

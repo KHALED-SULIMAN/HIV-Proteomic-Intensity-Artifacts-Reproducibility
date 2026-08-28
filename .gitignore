@@ -1,0 +1,35 @@
+# data (never commit participant-level or raw data)
+data/raw/
+data/cocomo/
+data/metadata/
+*.fastq
+*.fastq.gz
+*.bam
+*.sam
+
+# large intermediate outputs
+data/interim/
+data/processed/
+results/figures_matlab/
+*.fig
+*.tiff
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+
+# OS
+.DS_Store
+
+# external public source clone (retrieved by script; do not commit duplicate source repository)
+external/Immunometabolism_HIV/
+
+# reviewer-facing transformed data are intentionally trackable
+!data/intermediate_public/
+!data/intermediate_public/**
